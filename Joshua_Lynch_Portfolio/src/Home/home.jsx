@@ -8,7 +8,7 @@ const Home = () => {
             <div className="intro-container">
                 <h1 className="pop-title">I'm Josh, your full stack developer</h1>
                 <p>I can code in a lot of languages and it is basiclaly all I do in my free time. But I do not have a formal education in any of it..</p>
-                <button className="button">Down</button>
+                <div className="button downbtn">Down</div>
             </div>
             <div className="josh-container">
                 <img src={Josh} className="josh-image"></img>
@@ -26,15 +26,15 @@ const Home = () => {
                 </div>
                 <div className="social-media-container">
                     <h3 className="blurb-title">Social Media</h3>
-                    <div className="icon-contianer">
-                        <a className="icon-wrapper">
-                            <img className="linked-in"></img>
+                    <div className="icon-container">
+                        <a className="icon-wrapper" href="https://www.linkedin.com/in/josh-lynch-8b36242b3/">
+                            <img className="linked-in icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"></img>
                         </a>
-                        <a className="icon-wrapper">
-                            <img className="git-hub"></img>
+                        <a className="icon-wrapper" href="https://github.com/joshieingold">
+                            <img className="git-hub icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"></img>
                         </a>
-                        <a className="icon-wrapper">
-                            <img className="kattis"></img>
+                        <a className="icon-wrapper" href="https://open.kattis.com/users/josh-lynch">
+                            <img className="kattis icon" src="https://cdn-b.saashub.com/images/app/service_logos/22/31099382e4b5/large.png?1545403232"></img>
                         </a>
                     </div>
                     

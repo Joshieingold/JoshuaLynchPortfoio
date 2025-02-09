@@ -14,7 +14,12 @@
 
 .logo-container {
     width: 10%;
-
+    cursor: pointer;
+    transition: 0.8s;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+    transition: 0.8s;
 }
 
 .logo {
@@ -23,6 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.8s;
 }
 
 .link-container {
